@@ -3,7 +3,7 @@
   * ### We were team of 5 people and worked together on this project to enhance the functionality of the Employee System.
   * ### **I took the part of show the data exist in our DB in the text field when edit data, and implement many classes to get data and see when focus gained and focus lost, then use them in our textfield**
   * ### **<u>All Classes exist in src file</u>**
-  * ### It's big java project work with GUI and database to store and organize data of employees in your database with <u>jdbc drive</u>.
+  * ### It's big java project work with GUI and database to store and organize data of employees in your database with <u>jdbc drive </u>.
   * ### You can use simple interface without need to learn how to deal with database as it shows in the pictures.
   >This is the first look of the interface after you run the program.
   ![First look](img/FirstLook.png "Details")

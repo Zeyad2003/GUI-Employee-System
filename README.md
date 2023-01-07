@@ -38,4 +38,19 @@
 > ![DB After Insert](img/DataAfterEdit.png "Details")
 > * you also can enter the id and choose delete then ensure the process and it will disappear from your DB.
 ***
+## 🚀&nbsp; Installation
+
+1. Download the project from Github by applying ```git clone``` command to this  [link](https://github.com/Zeyad2003/GUI-Employee-System.git).
+
+2. Install Java language to your machine. 
+
+3. Add the project to your workspace.
+
+4. Add JDBC driver .jar file to your project.
+
+5. Run MySQL on your machine and create the data you want as the above pictures.
+
+6. Run ```FinalProject``` Class.
+<hr>
+
 # It was great experience and nice Team Work and excited about the next

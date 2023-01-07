@@ -53,4 +53,4 @@
 6. Run ```FinalProject``` Class.
 <hr>
 
-# It was great experience and nice Team Work and excited about the next11
+# It was great experience and nice Team Work and excited about the next

@@ -1,4 +1,4 @@
-# Java gui Employee System
+# Java gui Employee System.
 
   * ### We were team of 5 people and worked together on this project to enhance the functionalities of the Employee System.
   * ### **I took the part of show the data exist in our DB in the text field when edit data, and implement many classes to get data and see when focus gained and focus lost, then use them in our textfield**

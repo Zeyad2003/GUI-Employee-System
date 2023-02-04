@@ -25,15 +25,16 @@ public class ShowData extends javax.swing.JFrame implements ActionListener {
     JScrollPane js;
     String[] columns = {"Name", "ID","Password" , "National ID", "Phone", "Gender", "Address", "DOB", "Position", "Salary","bonus"};
     String [][]data;
-     ArrayList <data> list = new ArrayList ();
-     static Connection c;
-     static Statement s;
-     static String query;
-     static ResultSet r;
-        JButton Back = new JButton("Back");
+    ArrayList <data> list = new ArrayList ();
+    static Connection c;
+    static Statement s;
+    static String query;
+    static ResultSet r;
+    
+    JButton Back = new JButton("Back");
 
     ShowData() {
-        frame =new JFrame();
+       frame =new JFrame();
        this.setTitle("CEmployees Data");
        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        this.setVisible(true);
@@ -61,7 +62,7 @@ public class ShowData extends javax.swing.JFrame implements ActionListener {
             while(r.next())
             {
                 data u1= new data (r.getString("Name"),r.getString("ID"),r.getString("Password"),r.getString("National_ID"),r.getString("Phone"),
-                        r.getNString("gender"),r.getString("Address"),r.getString("DateOfBirth"),r.getString("Position"),r.getString("Salary"),r.getString("Bonus"));
+                r.getNString("gender"),r.getString("Address"),r.getString("DateOfBirth"),r.getString("Position"),r.getString("Salary"),r.getString("Bonus"));
                 list.add(u1);
             }
            
@@ -78,8 +79,7 @@ public class ShowData extends javax.swing.JFrame implements ActionListener {
                 data[i][8]=""+ list.get(i).getPos();
                 data[i][9]=""+ list.get(i).getSal();
                 data[i][10]=""+ list.get(i).getBon();
-                
-                
+                        
             }
             
             table = new JTable(data,columns);

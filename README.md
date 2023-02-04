@@ -1,7 +1,10 @@
 # Java gui Employee System
 
   * ### We were team of 5 people and worked together on this project to enhance the functionalities of the Employee System.
-  * ### **I took the part of show the data exist in our DB in the text field when edit data, and implement many classes to get data and see when focus gained and focus lost, then use them in our textfield**
+  * ### **Zeyad Nasef==>I took the part of show the data exist in our DB in the text field when edit data, and implement many classes to get data and see when focus gained and focus lost, then use them in our textfield.**
+  * ### **Sameh tarek==>I took the Show data class to show my data in a table, and I made a gui frame In order to display the data that exists in the database in it, and I made "which fun?" Frame to enable the admin to choose what he wants to do.**
+  * ### **Salma Ahmed==>I took (show EmpData, EditDel) classes to let the admin edit the employees and delete any employee easily, and I made these frames with gui (search for id , insert new employee) and I create database connection.**
+  
   * ### **<u>All Classes exist in src file</u>**
   * ### It's big java project work with GUI and database to store and organize data of employees in your database with <u>jdbc drive </u>.
   * ### You can use simple interface without need to learn how to deal with database as it shows in the pictures.

@@ -15,13 +15,14 @@ public class ShowEmpData  extends JFrame implements ActionListener{
     JButton btn;
     JFrame frame;
     JLabel name = new JLabel("Name: "), 
-            sal_label = new JLabel("Salary: "),
-            bon_label = new JLabel("Bonus: "), 
-            tot_label = new JLabel("Total Salary: ");
+    sal_label = new JLabel("Salary: "),
+    bon_label = new JLabel("Bonus: "), 
+    tot_label = new JLabel("Total Salary: ");
     TextField em_name = new TextField(),
-            sal_text = new TextField(),
-            bon_text = new TextField(), 
-            tot_text = new TextField();
+    sal_text = new TextField(),
+    bon_text = new TextField(), 
+    tot_text = new TextField();
+    
     private String id;
     
     static Connection c;

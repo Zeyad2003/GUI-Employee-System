@@ -24,7 +24,7 @@ public class data {
        this.gender=gender;
        this.address=address; 
        this.dob=dob;
-        this.pos=pos;
+       this.pos=pos;
        this.sal=sal;
        this.bon=bon; 
         

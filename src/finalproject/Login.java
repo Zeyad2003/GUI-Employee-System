@@ -30,8 +30,8 @@ public class Login extends JFrame implements ActionListener{
     JTextField idTxt= new JTextField() ,
                passTxt = new JPasswordField();
     
-    static Connection c;
-    static Statement s;
+    static Connection connection;
+    static Statement statement;
     static String query;
     static ResultSet r;
     public Login(){
@@ -76,10 +76,10 @@ public class Login extends JFrame implements ActionListener{
         connection c1 = new connection();        
             id=idTxt.getText();
             try{
-            c=c1.connect();
-            s = c.createStatement();
+                connection=c1.connect();
+                statement = connection.createStatement();
             query = "select * from employees where ID = " + id ;
-            r = s.executeQuery(query);
+            r = statement.executeQuery(query);
             while(r.next()){
                 if(r.getString("ID").equalsIgnoreCase(idTxt.getText())){
                     if(r.getString("Password").equalsIgnoreCase(passTxt.getText())){

@@ -14,7 +14,7 @@ public class DoneEdit extends JFrame implements ActionListener{
     JButton btn1;
     public DoneEdit(){
        done =new JFrame();
-        l1=new JLabel("Updated Successful");
+        l1=new JLabel("Updated Successful : )");
         btn1= new JButton("OK");
         
        this.setTitle("Done");

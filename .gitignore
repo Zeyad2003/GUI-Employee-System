@@ -1,0 +1,9 @@
+### IntelliJ project files
+.idea
+*.iml
+build
+dist
+img
+lib
+nbproject
+out
